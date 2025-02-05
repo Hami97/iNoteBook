@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import NoteState from "./context/NoteState";
+import { Alert } from "./components/Alert.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NoteState>
         <Router>
           <Navbar />
+          <Alert message="This is amazing Website" />
           <div className="container">
             <Switch>
               <Route exact path="/">

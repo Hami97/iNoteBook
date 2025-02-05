@@ -12,9 +12,8 @@ export const Noteitem = (props) => {
             {note.description} Lorem Ipsum is simply dummy text of the printing
             and typesetting industry.
           </p>
-          <a href="#" className="btn btn-primary">
-            Open
-          </a>
+          <i className="fa-solid fa-pen-to-square mx-2"></i>
+          <i className="fa-solid fa-trash-can mx-2"></i>
         </div>
       </div>
     </div>
